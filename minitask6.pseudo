@@ -1,8 +1,8 @@
 DECLARE A: INTEGER
-DECLARE B: INTEGER
 
-B <- A
-A <- 5
+
+
+A <- 9
 
 
 IF A % 2 == 0  THEN
