@@ -3,11 +3,11 @@
 ```mermaid
 flowchart TD
 A@{ shape: circle, label: "mulai"} -->
-B@{ shape: lean-r, label: "identifikasi jari-jarinya (r)"} --> 
-C@{ shape: lean-r, label: "masukkan kedalam rumus: luas = π x r x r 
+B@{ shape: lean-r, label: "jari-jari (r)"} --> 
+C@{ shape: lean-r, label: "rumus: 
+luas = π x r x r 
  keliling = 2 x π x r"} -->
- 
-E@{ shape: lean-r, label: "gunakan π 22/7 (jika angka bisa dibagi 7) jika tidak maka gunakan 3,14"} -->D@{ shape: rect, label: "masukkan nilai jari-jari ke dalam rumus dan hitung"} -->
+D@{ shape: rect, label: "hitung"} -->
 G@{ shape: lean-r, label: "hasil"} -->
 F@{ shape: dbl-circ, label: "selesai"}
 
