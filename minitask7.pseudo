@@ -1,0 +1,20 @@
+DECLARE A: FLOAT
+DECLARE B: FLOAT
+
+DECLARE C: FLOAT
+DECLARE D: FLOAT
+
+A <- 14
+B <- 0
+
+IF A % 7 == 0 THEN
+    B <- 22/7
+ELSE 
+    B <- 3,14
+ENDIF
+
+C <- B * A * A
+D <- 2 * B * A
+
+OUTPUT C
+OUTPUT D
