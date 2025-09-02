@@ -1,0 +1,14 @@
+DECLARE Jarak: FLOAT
+DECLARE Hasil: FLOAT
+
+
+
+Jarak <- 3
+
+IF Jarak <= 5 THEN
+     Hasil <- 8000
+ELSE
+    Hasil <- (Jarak - 5) * 3000 + 8000
+ENDIF
+
+OUTPUT Hasil
