@@ -1,0 +1,24 @@
+DECLARE Score : INTEGER
+DECLARE Hasil : STRING
+DECLARE N : INTEGER
+
+Score <- 100
+
+IF Score >= 90 AND Score <= 100 THEN
+    Hasil <- "Grade A"
+ELSE IF Score >= 75 AND Score <= 89 THEN
+    Hasil <- "Grade B"
+ELSE IF Score >= 60 AND Score <= 74 THEN
+    Hasil <- "Grade C"
+ELSE IF Score >= 40 AND Score <= 59 THEN
+    Hasil <- "Grade D"
+ELSE IF Score >= 20 AND Score <= 39 THEN
+    Hasil <- "Grade E"
+ELSE IF Score >= 0 AND Score <= 19 THEN
+    Hasil <- "Grade F"
+ELSE 
+    Hasil <- "ERROR"
+ENDIF
+
+
+OUTPUT Hasil

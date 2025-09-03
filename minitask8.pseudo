@@ -3,7 +3,7 @@ DECLARE Hasil: FLOAT
 
 
 
-Jarak <- 3
+Jarak <- 7
 
 IF Jarak <= 5 THEN
      Hasil <- 8000
